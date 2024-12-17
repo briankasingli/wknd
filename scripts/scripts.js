@@ -45,7 +45,6 @@ async function loadFonts() {
  * @param {Element} main The container element
  */
 function buildAutoBlocks(main) {
-  return;
   try {
     buildHeroBlock(main);
   } catch (error) {
@@ -63,7 +62,7 @@ export function decorateMain(main) {
   // hopefully forward compatible button decoration
   decorateButtons(main);
   decorateIcons(main);
-  buildAutoBlocks(main);
+  // buildAutoBlocks(main);
   decorateSections(main);
   decorateBlocks(main);
 }
