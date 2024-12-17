@@ -1,0 +1,24 @@
+.text p {
+    margin: 0;
+    padding: 0;
+}
+
+.text.margin-top-lg {
+    margin-top: 120px;
+}
+
+.text.margin-top-md {
+    margin-top: 60px;
+}
+
+.text.margin-bottom-lg {
+    margin-bottom: 120px;
+}
+
+.text.margin-bottom-md {
+    margin-bottom: 60px;
+}
+
+.text.legal-copy {
+    font-size: 12px;
+}

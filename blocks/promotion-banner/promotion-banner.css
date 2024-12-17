@@ -1,0 +1,32 @@
+.promotion-banner {
+    background: #499CA6;
+    padding: 160px 100px;
+    color: #fff;
+}
+
+.promotion-banner .promotion-banner__col {
+    display: flex;
+    flex-direction: row;
+}
+
+.promotion-banner__col-title-text {
+    width: 50%;
+}
+
+.promotion-banner__col-title-text h3 {
+    margin: 0;
+    padding: 0px;
+    font-size: 40px;
+    color: #fff;
+}
+
+.promotion-banner__col-description-text {
+    width: 50%;
+}
+.promotion-banner__col-description-text p {
+    font-size: 13px;
+}
+
+.promotion-banner-wrapper > div > div > div > p:nth-child(3) {
+    text-align: right;
+}

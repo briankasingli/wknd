@@ -1,0 +1,115 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+  height: 700px;
+  background-color: #f9f9f9;
+  overflow: hidden;
+}
+
+.banner .bg-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 80%;
+  height: 100%;
+  z-index: 1;
+  opacity: .3;
+}
+
+.banner .bg-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.banner .container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 2;
+  position: relative;
+  max-width: 50%;
+  padding: 2rem;
+}
+
+.banner h1 {
+  font-size: 98px;
+  line-height: 1.2;
+  margin: 0;
+  color: #333;
+  line-height: 101px;
+}
+
+.banner h1 strong {
+  color: #000;
+}
+
+.banner .content *:nth-child(2) {
+  font-size: 74px;
+  color: #666;
+  margin: 1rem 0;
+  line-height: 62px;
+}
+
+.banner p {
+  font-size: 1rem;
+  color: #666;
+  margin: 1rem 0;
+}
+
+.banner .button-group {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.banner .button-group .button-container a {
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.banner .button-group .button-container .secondary {
+  background-color: #f0f0f0;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+.banner .button-group .button-container .secondary:hover {
+  background-color: #e2e2e2;
+}
+
+.banner .button-group .button-container .primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+}
+
+.banner .button-group .button-container .primary:hover {
+  background-color: #0056b3;
+}
+
+/* RIGHT */
+.banner.right .bg-image {
+  right: auto;
+  left: 0;
+}
+
+.banner.right .container {
+  position: absolute;
+  right: 0;
+  top: 0;
+  max-width: 350px;
+}

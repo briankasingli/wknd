@@ -45,6 +45,7 @@ async function loadFonts() {
  * @param {Element} main The container element
  */
 function buildAutoBlocks(main) {
+  return;
   try {
     buildHeroBlock(main);
   } catch (error) {
