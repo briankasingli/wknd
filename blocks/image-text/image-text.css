@@ -37,9 +37,9 @@
 
 .text-image__container-text h1, .text-image__container-text h2, .text-image__container-text h3, .text-image__container-text h4, .text-image__container-text h5 {
   margin: 0;
-  padding: 0;
+  padding: 0 0 30px;
   font-size: 33px;
-  color: var(--white-color);
+  color: var(--black-color);
   font-weight: 500;
 }
 
