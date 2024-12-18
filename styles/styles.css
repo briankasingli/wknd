@@ -18,6 +18,7 @@
   --text-color: #131313;
   --link-color: #3b63fb;
   --link-hover-color: #1d3ecf;
+  --white-color: #fff;
 
   /* fonts */
   --body-font-family: 'OpenSans', sans-serif;
@@ -38,6 +39,8 @@
 
   /* nav height */
   --nav-height: 64px;
+
+  
 }
 
 @media (width >= 900px) {
@@ -158,29 +161,24 @@ button {
   box-sizing: border-box;
   display: inline-block;
   max-width: 100%;
-  margin: 12px 0;
-  border: 2px solid transparent;
-  border-radius: 2.4em;
-  padding: 0.5em 1.2em;
   font-family: var(--body-font-family);
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.25;
-  text-align: center;
   text-decoration: none;
-  background-color: var(--link-color);
-  color: var(--background-color);
+  color: #499CA6;
   cursor: pointer;
   overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
 }
 
 a.button:hover,
 a.button:focus,
 button:hover,
 button:focus {
-  background-color: var(--link-hover-color);
+  text-decoration: underline;
   cursor: pointer;
 }
 
@@ -242,3 +240,50 @@ main .section.highlight {
   margin: 0;
   padding: 0;
 }
+
+/* Icons */
+.icon-arrow-right img {
+ display: none;
+}
+
+.icon-arrow-right {
+  height: 23px;
+  width: 34px;
+  background-image: url('data:image/svg+xml,<%3Fxml version="1.0" encoding="iso-8859-1"%3F><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --><svg fill="%23000000" height="800px" width="800px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 330" xml:space="preserve"><path id="XMLID_27_" d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z"/></svg>');
+  background-size: 30px 19px;
+  background-repeat: no-repeat;
+  background-position-y: 7px;
+  margin-right: 5px;
+  margin-left: -5px;
+}
+
+.icon-arrow-right--orange img {
+  display: none;
+ }
+
+ .icon-arrow-right--orange {
+  height: 23px;
+  width: 34px;
+  background-image: url('data:image/svg+xml,<svg fill="%23f2762e" height="800px" width="800px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 330" xml:space="preserve" data-originalfillcolor="%23000000" transform="rotate(0) scale(1, 1)"><path id="XMLID_27_" d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255&%2310;&%239;s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0&%2310;&%239;c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z"/></svg>');
+  background-size: 30px 19px;
+  background-repeat: no-repeat;
+  background-position-y: 7px;
+  margin-right: 5px;
+  margin-left: -5px;
+ }
+
+
+ .icon-arrow-right--white img {
+  display: none;
+ }
+ 
+ .icon-arrow-right--white {
+   height: 23px;
+   width: 34px;
+   background-image: url('data:image/svg+xml,<svg fill="%23ffffff" height="800px" width="800px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 330" xml:space="preserve" data-originalfillcolor="%23000000" transform="rotate(0) scale(1, 1)"><path id="XMLID_27_" d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255&%2310;&%239;s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0&%2310;&%239;c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z"/></svg>');
+   background-size: 30px 19px;
+   background-repeat: no-repeat;
+   background-position-y: 7px;
+   margin-right: 5px;
+   margin-left: -5px;
+ }
