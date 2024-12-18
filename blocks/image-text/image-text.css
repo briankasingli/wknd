@@ -70,22 +70,3 @@
     width: 18px;
     height: 18px;
 }
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .text-image__container {
-        flex-direction: column;
-        height: auto;
-    }
-
-    .text-image__container-image img {
-        position: relative;
-        width: 100%;
-        top: 0;
-        left: 0;
-    }
-
-    .text-image__container-text {
-        padding: 30px;
-    }
-}

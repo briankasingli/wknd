@@ -15,7 +15,7 @@
 
 .promotion-banner__col-title-text h3 {
     margin: 0;
-    padding: 0px;
+    padding: 0;
     font-size: 40px;
     color: #fff;
 }
@@ -23,6 +23,7 @@
 .promotion-banner__col-description-text {
     width: 50%;
 }
+
 .promotion-banner__col-description-text p {
     font-size: 13px;
 }
