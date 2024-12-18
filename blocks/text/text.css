@@ -11,12 +11,20 @@
     margin-top: 60px;
 }
 
+.text.margin-top-sm {
+    margin-top: 30px;
+}
+
 .text.margin-bottom-lg {
     margin-bottom: 120px;
 }
 
 .text.margin-bottom-md {
     margin-bottom: 60px;
+}
+
+.text.margin-bottom-sm {
+    margin-bottom: 30px;
 }
 
 .text.legal-copy {
