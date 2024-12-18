@@ -1,12 +1,11 @@
 {
-  "project": "EDS SourcedCode",
-  "host": "eds.sourcedcode.com",
+  "project": "EDS Example",
   "plugins": [
     {
       "id": "library",
       "title": "Library",
       "environments": ["edit"],
-      "url": "https://main--wknd--briankasingli.aem.live/tools/sidekick/library.html",
+      "url": "/tools/sidekick/library.html",
       "includePaths": ["**.docx**"]
     }
   ]
