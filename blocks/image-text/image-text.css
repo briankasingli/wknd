@@ -97,6 +97,10 @@
   background: #499CA6;
 }
 
+.image-text.content-bg-color-teal .text-image__container .text-image__container-text a {
+  color: var(--white-color);
+}
+
 .image-text a.button:any-link {
   display: flex;
   align-items: flex-start;
